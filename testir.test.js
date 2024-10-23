@@ -1,6 +1,6 @@
 const Daysfunction = require('./Test/Testi');
 
-test('Ошибка', () => {
+test('Проверочка', () => {
     expect(Daysfunction(1)).toBe('Понедельник');
     expect(Daysfunction(2)).toBe('Вторник');
     expect(Daysfunction(3)).toBe('Среда');
